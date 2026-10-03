@@ -79,7 +79,7 @@
   <g class="swatch s4"><rect x="962" y="114" width="28" height="28" rx="7" fill="#0acf83"/></g>
   <text class="mono plabel" x="854" y="178">radius</text><text class="mono pval" x="960" y="178">12px</text>
   <text class="mono plabel" x="854" y="206">motion</text><text class="mono pval" x="960" y="206">spring(.3,.8)</text>
-  <text class="mono plabel" x="854" y="234">pixels</text><text class="mono pval" x="960" y="234">perfect-ish</text>
+  <text class="mono plabel" x="854" y="234">pixels</text><text class="mono pval" x="960" y="234">8pt grid</text>
   <text class="mono plabel" x="854" y="268">ship it</text>
   <rect class="track" x="1068" y="252" width="46" height="24" rx="12"/>
   <circle class="knob" cx="1080" cy="264" r="9"/>
