@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Zach Blevins. Designer who ships code.">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" class="dot"/>
+    </pattern>
+  </defs>
+  <style>
+    .bg{fill:#0d1117}
+    .dot{fill:#262c36}
+    .name{font:800 96px ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;fill:#f0f6fc}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .sub{font-size:22px;fill:#c9d1d9}
+    .meta{font-size:16px;fill:#6e7681}
+    .blue{fill:#0d99ff}
+    .frame{font-size:14px;fill:#0d99ff;opacity:0;animation:fade .3s .4s forwards}
+    .sel{fill:none;stroke:#0d99ff;stroke-width:2;stroke-dasharray:1560;stroke-dashoffset:1560;animation:draw 1s .5s cubic-bezier(.2,.8,.2,1) forwards}
+    .handle{fill:#fff;stroke:#0d99ff;stroke-width:2;opacity:0;animation:fade .2s 1.4s forwards}
+    .dim{opacity:0;animation:fade .3s 1.6s forwards}
+    .dim text{font-size:13px;fill:#fff}
+    .cursor{transform:translate(1180px,360px);animation:glide 1.3s .2s cubic-bezier(.3,.7,.2,1) forwards}
+    .typer{animation:type 2.6s 2s steps(48) forwards}
+    .caret{fill:#0d99ff;animation:blink 1s step-end infinite}
+    .panel{fill:#161b22;stroke:#30363d}
+    .plabel{font-size:15px;fill:#6e7681}
+    .pval{font-size:15px;fill:#e6edf3}
+    .track{fill:#30363d;animation:trackon 4s 2.4s ease-in-out infinite}
+    .knob{fill:#fff;animation:knob 4s 2.4s cubic-bezier(.5,1.6,.4,1) infinite}
+    .swatch{animation:bob 3s ease-in-out infinite}
+    .s2{animation-delay:.2s}.s3{animation-delay:.4s}.s4{animation-delay:.6s}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes fade{to{opacity:1}}
+    @keyframes glide{to{transform:translate(738px,192px)}}
+    @keyframes type{to{transform:translateX(640px)}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes knob{0%,40%{transform:translateX(0)}50%,90%{transform:translateX(22px)}100%{transform:translateX(0)}}
+    @keyframes trackon{0%,40%{fill:#30363d}50%,90%{fill:#0d99ff}100%{fill:#30363d}}
+    @keyframes bob{50%{transform:translateY(-4px)}}
+    @media (prefers-color-scheme: light){
+      .bg{fill:#ffffff}.dot{fill:#e4e7eb}.name{fill:#0d1117}.sub{fill:#24292f}.meta{fill:#57606a}
+      .panel{fill:#f6f8fa;stroke:#d0d7de}.pval{fill:#24292f}.plabel{fill:#57606a}.cover{fill:#ffffff}
+    }
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none!important}
+      .frame,.handle,.dim{opacity:1}.sel{stroke-dashoffset:0}
+      .cursor{transform:translate(738px,192px)}.typer{transform:translateX(640px)}
+    }
+  </style>
+
+  <rect class="bg" width="1200" height="340"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+
+  <!-- Figma-style frame around the name -->
+  <text class="mono frame" x="64" y="76">Frame · hero</text>
+  <text class="name" x="80" y="172" textLength="640" lengthAdjust="spacingAndGlyphs">Zach Blevins</text>
+  <rect class="sel" x="64" y="86" width="672" height="106"/>
+  <g class="handle">
+    <rect x="59" y="81" width="10" height="10"/><rect x="731" y="81" width="10" height="10"/>
+    <rect x="59" y="187" width="10" height="10"/><rect x="731" y="187" width="10" height="10"/>
+  </g>
+  <g class="dim mono">
+    <rect class="blue" x="345" y="204" width="110" height="24" rx="4"/>
+    <text x="400" y="221" text-anchor="middle">672 × 106</text>
+  </g>
+
+  <!-- typed subtitle -->
+  <text class="mono sub" x="80" y="268">&gt; designer who ships code. figma → react → prod.</text>
+  <g class="typer">
+    <rect class="bg cover" x="80" y="246" width="720" height="30"/>
+    <rect class="caret" x="80" y="249" width="3" height="24"/>
+  </g>
+  <text class="mono meta" x="80" y="306">Columbus, OH  ·  15 yrs  ·  Lead Product Designer @ HubiFi  ·  ex-PrizePicks</text>
+
+  <!-- inspector panel -->
+  <rect class="panel" x="830" y="62" width="310" height="230" rx="14"/>
+  <text class="mono plabel" x="854" y="96">DESIGN ↔ CODE</text>
+  <g class="swatch"><rect x="854" y="114" width="28" height="28" rx="7" fill="#0d99ff"/></g>
+  <g class="swatch s2"><rect x="890" y="114" width="28" height="28" rx="7" fill="#a259ff"/></g>
+  <g class="swatch s3"><rect x="926" y="114" width="28" height="28" rx="7" fill="#ff7262"/></g>
+  <g class="swatch s4"><rect x="962" y="114" width="28" height="28" rx="7" fill="#0acf83"/></g>
+  <text class="mono plabel" x="854" y="178">radius</text><text class="mono pval" x="960" y="178">12px</text>
+  <text class="mono plabel" x="854" y="206">motion</text><text class="mono pval" x="960" y="206">spring(.3,.8)</text>
+  <text class="mono plabel" x="854" y="234">pixels</text><text class="mono pval" x="960" y="234">perfect-ish</text>
+  <text class="mono plabel" x="854" y="268">ship it</text>
+  <rect class="track" x="1068" y="252" width="46" height="24" rx="12"/>
+  <circle class="knob" cx="1080" cy="264" r="9"/>
+
+  <!-- multiplayer cursor -->
+  <g class="cursor">
+    <path d="M0 0 L0 22 L6 16 L10 26 L14 24 L10 14 L18 14 Z" fill="#ff24bd" stroke="#fff" stroke-width="1.5"/>
+    <rect x="16" y="22" width="52" height="24" rx="6" fill="#ff24bd"/>
+    <text class="mono" x="42" y="39" text-anchor="middle" font-size="13" fill="#fff">Blev</text>
+  </g>
+</svg>
