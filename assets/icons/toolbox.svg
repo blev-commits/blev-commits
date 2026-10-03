@@ -1,21 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Toolbox">
   <style>
+    .hdl{stroke:#868787}.box{fill:#3e3f40}.lid{fill:#565758}.latch{fill:#d7ff38}.shaft{stroke:#cfcfcf}
     .tool{animation:pop 2.4s cubic-bezier(.3,1.5,.5,1) infinite}
     .pencil{animation-delay:1.2s}
     @keyframes pop{0%,45%,100%{transform:translateY(0)}15%,30%{transform:translateY(-5px)}}
+    @media (prefers-color-scheme: light){.hdl{stroke:#0e0f10}.box{fill:#0e0f10}.lid{fill:#3e3f40}.shaft{stroke:#6e6f70}}
     @media (prefers-reduced-motion: reduce){.tool{animation:none}}
   </style>
-  <path d="M12 13.5V10.5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3" stroke="#0d99ff" stroke-width="2" fill="none"/>
+  <path d="M12 13.5V10.5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3" class="hdl" stroke-width="2" fill="none"/>
   <g class="tool">
-    <path d="M8.5 6v8" stroke="#c9d1d9" stroke-width="1.6" stroke-linecap="round"/>
-    <rect x="6.6" y="11" width="3.8" height="7" rx="1.4" fill="#ff7262"/>
+    <path d="M8.5 6v8" class="shaft" stroke-width="1.6" stroke-linecap="round"/>
+    <rect x="6.6" y="11" width="3.8" height="7" rx="1.4" fill="#fc655a"/>
   </g>
   <g class="tool pencil">
     <path d="M21.5 9 23.5 4.5 25.5 9Z" fill="#f2d7b0"/>
     <path d="M23 5.6 23.5 4.5 24 5.6Z" fill="#30363d"/>
-    <rect x="21.5" y="9" width="4" height="9" fill="#a259ff"/>
+    <rect x="21.5" y="9" width="4" height="9" fill="#d7ff38"/>
   </g>
-  <rect x="3" y="14" width="26" height="14" rx="3" fill="#0d99ff"/>
-  <rect x="3" y="14" width="26" height="4" rx="2" fill="#0b7fd6"/>
-  <rect x="14" y="16.5" width="4" height="3" rx="1" fill="#ffffff"/>
+  <rect class="box" x="3" y="14" width="26" height="14" rx="3"/>
+  <rect x="3" y="14" width="26" height="4" rx="2" class="lid"/>
+  <rect x="14" y="16.5" width="4" height="3" rx="1" class="latch"/>
 </svg>

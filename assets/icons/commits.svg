@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Commit graph">
   <style>
-    .line{stroke:#0acf83;stroke-width:2;stroke-linecap:round}
-    .node{fill:#0acf83;fill-opacity:0;stroke:#0acf83;stroke-width:2;animation:fill 2.4s ease-in-out infinite}
+    .line{stroke:#d7ff38;stroke-width:2;stroke-linecap:round}
+    .node{fill:#d7ff38;fill-opacity:0;stroke:#d7ff38;stroke-width:2;animation:fill 2.4s ease-in-out infinite}
     .n2{animation-delay:.4s}.n3{animation-delay:.8s}
-    .spark{fill:#0acf83;animation:travel 2.4s cubic-bezier(.5,0,.5,1) infinite}
+    .spark{fill:#d7ff38;animation:travel 2.4s cubic-bezier(.5,0,.5,1) infinite}
     @keyframes fill{0%,10%{fill-opacity:0}20%,70%{fill-opacity:1}85%,100%{fill-opacity:0}}
     @keyframes travel{0%{transform:translateX(0);opacity:0}5%{opacity:1}40%{transform:translateX(20px);opacity:1}50%,100%{transform:translateX(20px);opacity:0}}
+    @media (prefers-color-scheme: light){.line{stroke:#0e0f10}.node{fill:#0e0f10;stroke:#0e0f10}.spark{fill:#0e0f10}}
     @media (prefers-reduced-motion: reduce){.node,.spark{animation:none}.node{fill-opacity:1}.spark{opacity:0}}
   </style>
   <path class="line" d="M0.5 16H2.4M9.6 16H12.4M19.6 16H22.4M29.6 16H31.5"/>

@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Hand pointing right">
   <style>
+    .ink{fill:#d7ff38}.crease{stroke:#8fae16}
     .hand{animation:poke 1.2s ease-in-out infinite}
     @keyframes poke{0%,100%{transform:translateX(0)}50%{transform:translateX(3.5px)}}
+    @media (prefers-color-scheme: light){.ink{fill:#0e0f10}.crease{stroke:#868787}}
     @media (prefers-reduced-motion: reduce){.hand{animation:none}}
   </style>
-  <g class="hand" fill="#ffc83d">
+  <g class="hand ink">
     <rect x="12" y="10.6" width="17" height="4" rx="2"/>
     <rect x="8.5" y="7" width="9.5" height="3.6" rx="1.8" transform="rotate(12 13 9)"/>
     <rect x="13.5" y="15" width="7" height="3.4" rx="1.7"/>
