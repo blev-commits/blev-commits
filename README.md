@@ -45,6 +45,11 @@ e0a7f13  docs: explain to eng why it's 0.875rem and not 0.8125rem
 <p>
   <img src="https://skillicons.dev/icons?i=figma,react,ts,nextjs,tailwind,vercel,github&theme=dark" alt="Figma, React, TypeScript, Next.js, Tailwind, Vercel, GitHub">
 </p>
+<p>
+  <img src="https://img.shields.io/badge/Claude-0e0f10?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude">
+  <img src="https://img.shields.io/badge/Codex-0e0f10?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Gemini-0e0f10?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Gemini">
+</p>
 
 ### <img src="./assets/icons/heart.svg" width="26" align="top"> What I care about
 
