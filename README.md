@@ -12,11 +12,32 @@ Right now I'm the Lead Product Designer at **HubiFi**. I'm the only designer, so
 
 I do my best work close to the code. Most of what's here is me prototyping in React, building out design systems, and getting motion right.
 
+```ts
+const blev = {
+  role:        "Lead Product Designer @ HubiFi",
+  based:       "Columbus, OH",
+  workflow:    "figma → react → prod",
+  figmaFiles:  ["Final", "Final v2", "Final ACTUAL", "use this one"],
+  spacing:     "multiples of 8 or we fight",
+  lorem:       "ipsum, until legal sends the real copy",
+};
+```
+
 ```diff
 + HubiFi       Lead Product Designer     Sole designer. Fintech. 0→1.
 + PrizePicks   Senior Product Designer   20M+ accounts. +56% tailed lineups.
 + eFuse        Senior Product Designer   Led SSO.
 + DSW          UX Designer               Native app and site rebuild.
+```
+
+### Recent commits
+
+```
+a3f9c1e  fix: nudge button 1px left
+b72e0d4  revert: nudge button 1px left
+c18d6a2  chore: rename Final_FINAL_v7.fig to Final.fig
+d4e9b05  feat: dark mode (it was always going to be dark mode)
+e0a7f13  docs: explain to eng why it's 14px and not 13px
 ```
 
 ### Tools
@@ -32,3 +53,5 @@ I do my best work close to the code. Most of what's here is me prototyping in Re
 - Motion with a purpose. If it doesn't help, it goes.
 
 Case studies at **[zachblevins.com](https://zachblevins.com)**.
+
+<sub>The header is hand-written SVG. Yes, I kerned it.</sub>
