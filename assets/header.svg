@@ -15,7 +15,7 @@
     .acc{fill:#d7ff38}
     .onacc{fill:#0e0f10}
     .frame{font-size:0.875rem;fill:#d7ff38;opacity:0;animation:fade .3s .4s forwards}
-    .sel{fill:none;stroke:#d7ff38;stroke-width:2;stroke-dasharray:1560;stroke-dashoffset:1560;animation:draw 1s .5s cubic-bezier(.2,.8,.2,1) forwards}
+    .sel{fill:none;stroke:#d7ff38;stroke-width:2;stroke-dasharray:1580;stroke-dashoffset:1580;animation:draw 1s .5s cubic-bezier(.2,.8,.2,1) forwards}
     .handle{fill:#0e0f10;stroke:#d7ff38;stroke-width:2;opacity:0;animation:fade .2s 1.4s forwards}
     .dim{opacity:0;animation:fade .3s 1.6s forwards}
     .dim text{font-size:0.8125rem}
