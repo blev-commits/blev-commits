@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Heart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Heart">
   <style>
-    .heart{transform-box:view-box;transform-origin:16px 17px;animation:beat 1.4s ease-in-out infinite}
-    @keyframes beat{0%{transform:scale(1)}14%{transform:scale(1.16)}28%{transform:scale(1)}42%{transform:scale(1.1)}70%,100%{transform:scale(1)}}
+    .heart{stroke:#fc655a;transform-box:view-box;transform-origin:12px 12.5px;animation:beat 1.4s ease-in-out infinite}
+    @keyframes beat{0%{transform:scale(1)}14%{transform:scale(1.14)}28%{transform:scale(1)}42%{transform:scale(1.08)}70%,100%{transform:scale(1)}}
     @media (prefers-reduced-motion: reduce){.heart{animation:none}}
   </style>
-  <g class="heart">
-    <path d="M16 27.5C6.5 21 3 15 5.6 9.6 7.8 5.2 13.2 5.2 16 9.6 18.8 5.2 24.2 5.2 26.4 9.6 29 15 25.5 21 16 27.5Z" fill="#fc655a"/>
-    <ellipse cx="10" cy="11.5" rx="2.2" ry="1.4" transform="rotate(-35 10 11.5)" fill="#ffffff" opacity=".55"/>
-  </g>
+  <path class="heart" d="M19 14c1.5-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
 </svg>

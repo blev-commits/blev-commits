@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Hand pointing right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hand pointing right">
   <style>
-    .ink{fill:#d7ff38}.crease{stroke:#8fae16}
+    .ln{stroke:#d7ff38}
     .hand{animation:poke 1.2s ease-in-out infinite}
-    @keyframes poke{0%,100%{transform:translateX(0)}50%{transform:translateX(3.5px)}}
-    @media (prefers-color-scheme: light){.ink{fill:#0e0f10}.crease{stroke:#868787}}
+    @keyframes poke{0%,100%{transform:translateX(0)}50%{transform:translateX(2px)}}
+    @media (prefers-color-scheme: light){.ln{stroke:#0e0f10}}
     @media (prefers-reduced-motion: reduce){.hand{animation:none}}
   </style>
-  <g class="hand ink">
-    <rect x="12" y="10.6" width="17" height="4" rx="2"/>
-    <rect x="8.5" y="7" width="9.5" height="3.6" rx="1.8" transform="rotate(12 13 9)"/>
-    <rect x="13.5" y="15" width="7" height="3.4" rx="1.7"/>
-    <rect x="13.5" y="18.8" width="6.6" height="3.4" rx="1.7"/>
-    <rect x="13.5" y="22.6" width="6" height="3.4" rx="1.7"/>
-    <rect x="3" y="10.6" width="13" height="15.4" rx="4.5"/>
+  <g class="hand ln">
+    <g transform="rotate(90 12 12) translate(0 1)">
+      <path d="M22 14a8 8 0 0 1-8 8"/>
+      <path d="M18 11v-1a2 2 0 0 0-4 0"/>
+      <path d="M14 10V9a2 2 0 0 0-4 0v1"/>
+      <path d="M10 9.5V4a2 2 0 0 0-4 0v10"/>
+      <path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-6-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.83L7 15"/>
+    </g>
   </g>
 </svg>
