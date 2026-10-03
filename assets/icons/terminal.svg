@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Terminal">
+  <style>
+    .ln{stroke:#d7ff38}
+    .cursor{animation:blink 1.1s steps(1,end) infinite}
+    @keyframes blink{0%{opacity:1}50%{opacity:0}}
+    @media (prefers-color-scheme: light){.ln{stroke:#0e0f10}}
+    @media (prefers-reduced-motion: reduce){.cursor{animation:none}}
+  </style>
+  <g class="ln">
+    <rect x="3" y="3" width="18" height="18" rx="2"/>
+    <path d="m7 11 2-2-2-2"/>
+    <path class="cursor" d="M11 13h4"/>
+  </g>
+</svg>

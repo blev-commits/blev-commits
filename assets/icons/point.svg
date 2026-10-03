@@ -1,14 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hand pointing right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hand pointing right">
   <style>
     .ln{stroke:#d7ff38}
-    .hand{animation:poke 1.2s ease-in-out infinite}
-    @keyframes poke{0%,100%{transform:translateX(0)}50%{transform:translateX(2px)}}
+    .hand{animation:poke 6s cubic-bezier(.22,.61,.36,1) 3.6s infinite}
+    @keyframes poke{0%{transform:translateX(0)}3%{transform:translateX(2px)}6%{transform:translateX(0)}9%{transform:translateX(2px)}12%,100%{transform:translateX(0)}}
     @media (prefers-color-scheme: light){.ln{stroke:#0e0f10}}
     @media (prefers-reduced-motion: reduce){.hand{animation:none}}
   </style>
   <g class="hand ln">
     <g transform="rotate(90 12 12) translate(0 1)">
-      <path d="M22 14a8 8 0 0 1-8 8"/>
       <path d="M18 11v-1a2 2 0 0 0-4 0"/>
       <path d="M14 10V9a2 2 0 0 0-4 0v1"/>
       <path d="M10 9.5V4a2 2 0 0 0-4 0v10"/>

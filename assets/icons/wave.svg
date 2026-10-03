@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Waving hand">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Waving hand">
   <style>
     .ln{stroke:#d7ff38}
-    .hand{transform-box:view-box;transform-origin:12px 22px;animation:wave 2.4s ease-in-out infinite}
-    .motion{animation:fade 2.4s ease-in-out infinite}
-    @keyframes wave{0%{transform:rotate(0)}8%{transform:rotate(14deg)}16%{transform:rotate(-8deg)}24%{transform:rotate(12deg)}32%{transform:rotate(-4deg)}40%{transform:rotate(8deg)}50%,100%{transform:rotate(0)}}
-    @keyframes fade{0%,4%{opacity:0}10%,40%{opacity:1}50%,100%{opacity:0}}
+    .hand{transform-box:view-box;transform-origin:12px 22px;animation:wave 6s cubic-bezier(.22,.61,.36,1) infinite}
+    .motion{animation:motion 6s linear infinite}
+    @keyframes wave{0%{transform:rotate(0)}3%{transform:rotate(14deg)}6%{transform:rotate(-8deg)}9%{transform:rotate(10deg)}12%,100%{transform:rotate(0)}}
+    @keyframes motion{0%,1%{opacity:0}3%,10%{opacity:1}14%,100%{opacity:0}}
     @media (prefers-color-scheme: light){.ln{stroke:#0e0f10}}
     @media (prefers-reduced-motion: reduce){.hand,.motion{animation:none}.motion{opacity:0}}
   </style>
@@ -14,7 +14,7 @@
     <path d="M10 10.5V6a2 2 0 0 0-4 0v8"/>
     <path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-6-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.83L7 15"/>
   </g>
-  <g class="motion ln" stroke-width="1.25">
+  <g class="motion ln">
     <path d="M3.5 6.5 2 5.5"/>
     <path d="M4 3.5 3.5 2"/>
   </g>
