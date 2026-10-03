@@ -37,7 +37,7 @@ a3f9c1e  fix: nudge button 1px left
 b72e0d4  revert: nudge button 1px left
 c18d6a2  chore: rename Final_FINAL_v7.fig to Final.fig
 d4e9b05  feat: dark mode (it was always going to be dark mode)
-e0a7f13  docs: explain to eng why it's 14px and not 13px
+e0a7f13  docs: explain to eng why it's 0.875rem and not 0.8125rem
 ```
 
 ### <img src="./assets/icons/toolbox.svg" width="26" align="top"> Toolbox
