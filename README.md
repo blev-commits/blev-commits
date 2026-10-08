@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://zachblevins.com">
-    <img src="./assets/header.svg" alt="Zach Blevins. Designer who ships code." width="100%">
+    <img src="./assets/header.svg" alt="Zach Blevins, Product Designer + Design Engineer in Columbus, Ohio. Graphic design. UX/UI. Product. And yes, I ship code too." width="100%">
   </a>
 </p>
 
@@ -59,4 +59,4 @@ e0a7f13  docs: explain to eng why it's 0.875rem and not 0.8125rem
 
 <img src="./assets/icons/point.svg" width="24" align="top"> Case studies at **[zachblevins.com](https://zachblevins.com)**.
 
-<sub>The header is hand-written SVG. Yes, I kerned it.</sub>
+<sub>The header is the share card from my Figma library, rebuilt as SVG. The text is outlined, so it looks the same everywhere.</sub>
