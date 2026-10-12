@@ -59,4 +59,4 @@ e0a7f13  docs: explain to eng why it's 0.875rem and not 0.8125rem
 
 <img src="./assets/icons/point.svg" width="24" align="top"> Case studies at **[zachblevins.com](https://zachblevins.com)**.
 
-<sub>The header is the share card from my Figma library, rebuilt as SVG. The text is outlined, so it looks the same everywhere.</sub>
+<sub>The header is the GitHub card from my Figma library, rebuilt as SVG. The cat wags its tail and the ninja blinks. The text is outlined, so it looks the same everywhere.</sub>
